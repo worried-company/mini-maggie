@@ -1,6 +1,4 @@
 # Icarus
-This is the source code of a grocery store's website. You can check the web page in minimaggie.pt
-
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
 
