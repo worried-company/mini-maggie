@@ -25,7 +25,7 @@ module.exports = function (config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    browsers: ['Chrome', 'Chrome_without_security'], // You may use 'ChromeCanary', 'Chromium' or any other supported browser
+    browsers: ['Chrome', 'Chrome_without_security', 'PhantomJS'], // You may use 'ChromeCanary', 'Chromium' or any other supported browser
     customLaunchers: {
       Chrome_without_security: {
         base: 'Chrome',
