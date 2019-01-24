@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "npm test",
+    "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "sonar-scanner": "node_modules/sonar-scanner/bin/sonar-scanner"
@@ -22,6 +22,7 @@
     "@angular/router": "~7.2.0",
     "chai": "4.2.0",
     "core-js": "^2.5.4",
+    "generator-karma": "2.0.1",
     "mocha": "5.2.0",
     "ng": "0.0.0",
     "rxjs": "~6.3.3",
