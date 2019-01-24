@@ -10,8 +10,7 @@ module.exports = function (config) {
       require('karma-chrome-launcher'),
       require('karma-jasmine-html-reporter'),
       require('karma-coverage-istanbul-reporter'),
-      require('@angular-devkit/build-angular/plugins/karma'),
-      require('karma-phantomjs-launcher')
+      require('@angular-devkit/build-angular/plugins/karma')
     ],
     client: {
       clearContext: false // leave Jasmine Spec Runner output visible in browser
@@ -25,18 +24,8 @@ module.exports = function (config) {
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
-    // start these browsers
-    // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Chrome', 'ChromeCanary'],
-
-    customLaunchers: {
-      Chrome_travis_ci: {
-        base: 'Chrome',
-        flags: ['--no-sandbox']
-      }
-    },
-    // enable / disable watching file and executing tests whenever any file changes
-    autoWatch: false,
+    autoWatch: true,
+    browsers: ['Chrome'],
     singleRun: false
   });
 };
