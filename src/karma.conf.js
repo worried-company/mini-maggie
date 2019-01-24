@@ -25,14 +25,18 @@ module.exports = function (config) {
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
-    autoWatch: true,
-    browsers: ['Chrome', 'Chrome_without_security', 'PhantomJS'], // You may use 'ChromeCanary', 'Chromium' or any other supported browser
+    // start these browsers
+    // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
+    browsers: ['Chrome', 'ChromeCanary'],
+
     customLaunchers: {
-      Chrome_without_security: {
+      Chrome_travis_ci: {
         base: 'Chrome',
-        flags: ['--disable-web-security']
+        flags: ['--no-sandbox']
       }
     },
+    // enable / disable watching file and executing tests whenever any file changes
+    autoWatch: false,
     singleRun: false
   });
 };
