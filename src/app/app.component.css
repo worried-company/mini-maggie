@@ -1,0 +1,22 @@
+#col-right {
+    height: 100vh;
+    background-image: url("https://ecommerce.parfois.com/public/assets/img/season/4.jpg");
+    background-size: cover;
+}
+
+#img-1 {
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 50%;
+    height: 50%;
+}
+
+#button-login{
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.form-group{
+    text-align:center;
+    display:inline-block;
+}
