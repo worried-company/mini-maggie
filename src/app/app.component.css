@@ -5,10 +5,11 @@
 }
 
 #img-1 {
-    padding-top: 50px;
-    padding-left: 50px;
-    width: 50%;
-    height: 50%;
+    position:absolute; 
+    top: 40px;
+    left: 40px;
+    width: 300px;
+    height: 58px;
 }
 
 #button-login{
@@ -19,4 +20,8 @@
 .form-group{
     text-align:center;
     display:inline-block;
+}
+
+.login-content{
+    margin-top: 35%;
 }
