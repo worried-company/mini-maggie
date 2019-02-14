@@ -32,7 +32,6 @@ module.exports = function (config) {
         flags: ['--no-sandbox', '--watch=false']
       }
     },
-    watch=false,
     singleRun: false
   });
 };
