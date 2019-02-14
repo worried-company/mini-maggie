@@ -14,7 +14,7 @@ addons:
   sonarcloud: 
     organization: worriedhugo-github
     token: 
-      secure: $SONAR_TOKEN
+      secure: $SONAR_TOKEN_ICARUS
 
 jdk:
   - oraclejdk8
